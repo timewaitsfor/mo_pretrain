@@ -14,7 +14,7 @@ import torch
 from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler,Dataset
 from torch.utils.data.distributed import DistributedSampler
 import jieba
-import tokenization_word as tokenization
+# import tokenization_word as tokenization
 import torch.nn as nn
 from transformers import BertConfig, BertForSequenceClassification,LineByLineTextDataset,BertForMaskedLM, DataCollatorForLanguageModeling
 from transformers import BertTokenizer,TrainingArguments,Trainer

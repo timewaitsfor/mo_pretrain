@@ -1,0 +1,7 @@
+data/
+.idea/
+log/
+db_config/
+product/
+models/
+utils/__pycache__/*.pyc
